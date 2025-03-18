@@ -1,0 +1,80 @@
+/* עיצוב בסיסי */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    background-image: url('images/pawpallogo.jpg');
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* אפקט פרלקס */
+        direction: rtl;
+}
+
+/* תפריט צדדי */
+.menu-container {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #004A8D;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.menu-container h2 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.menu-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.menu-button:hover {
+    background-color: #0056b3;
+}
+
+/* עיצוב טופס התחברות */
+.login-container {
+    padding: 20px;
+    margin-right: 240px; /* מרחק מתאים כך שהתפריט לא יסתיר */
+}
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* הודעות */
+#log {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+}
