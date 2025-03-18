@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>הויזואליזציה הראשונה שלי</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .tableau-container {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>הויזואליזציה הראשונה שלי</h1>
+    </header>
+    <div class="container">
+        <h2>פרויקט ניתוח נתוני מכירות</h2>
+        <p>
+            בפרויקט זה, ניתחתי נתוני מכירות של חברה פיקטיבית באמצעות Tableau.
+            הדאשבורד מציג מגמות מכירות, ביצועים לפי אזורים וקטגוריות מוצרים,
+            וכן תובנות לגבי הרווחיות.
+        </p>
+        <div class="tableau-container">
+            <div class='tableauPlaceholder' id='viz1702456789123' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Dashboard2 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1_17423240507080&#47;Dashboard2&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='&#47;' />
+                    <param name='name' value='Book1_17423240507080&#47;Dashboard2' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_data_warning' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1702456789123');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                if (divElement.offsetWidth > 800) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                } else if (divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '727px';
+                }
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+        </div>
+        <h2>תובנות עיקריות</h2>
+        <ul>
+            <li>האזור הצפוני מציג את ביצועי המכירות הטובים ביותר.</li>
+            <li>קטגוריית מוצרי האלקטרוניקה היא הרווחית ביותר.</li>
+            <li>מגמת המכירות מראה עלייה יציבה לאורך זמן.</li>
+        </ul>
+        <button class="button">הורד דוח</button>
+        <button class="button">שתף דאשבורד</button>
+    </div>
+</body>
+</html>
